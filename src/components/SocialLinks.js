@@ -1,34 +1,63 @@
-import React from 'react';
+// components/SocialLinks.js
+import { useContext } from 'react';
+import ThemeContext from '../context/ThemeContext';
 
-const SocialLinks = () => (
-  <div className="social-links">
-    <a href="https://linkedin.com/in/myname/" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-linkedin" />
-    </a>
-    <a href="https://github.com/myname/" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-github" />
-    </a>
-    <a href="https://twitter.com/myname/" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-twitter" />
-    </a>
-    <style jsx>{`
-      .social-links {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-      }
-      .social-links a {
-        color: #ffffff;
-        margin: 0 0.5rem;
-        font-size: 1.5rem;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out;
-      }
-      .social-links a:hover {
-        color: #aaa;
-      }
-    `}</style>
-  </div>
-);
+const SocialLinks = () => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <div className="social-links">
+      <a
+        href="https://discordapp.com/users/230346419893043201/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`icon ${theme}`}
+      >
+        <i className="fab fa-discord"></i>
+      </a>
+      <a
+        href="https://github.com/zenith-stardragon"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`icon ${theme}`}
+      >
+        <i className="fab fa-github"></i>
+      </a>
+      <a
+        href="https://t.me/zenithstardragon"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`icon ${theme}`}
+      >
+        <i className="fab fa-telegram"></i>
+      </a>
+      <a
+        href="https://steamcommunity.com/id/zenithstarborn"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`icon ${theme}`}
+      >
+        <i className="fab fa-steam"></i>
+      </a>
+      <style jsx>{`
+        .social-links {
+          display: flex;
+          gap: 1rem;
+          margin-top: 2rem;
+        }
+        .icon {
+          color: inherit;
+          text-decoration: none;
+          font-size: 1.5rem;
+          transition: color 0.3s;
+        }
+        .icon.dark:hover,
+        .icon.light:hover {
+          color: inherit;
+        }
+      `}</style>
+    </div>
+  );
+};
 
 export default SocialLinks;

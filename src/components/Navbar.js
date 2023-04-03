@@ -4,7 +4,7 @@ import ThemeToggle from './ThemeToggle';
 const Navbar = () => (
   <div className="navbar">
     <img src="/profile-picture.png" alt="Profile Picture" className="profile-picture" />
-    <h1>My Links</h1>
+    <h1>Zenith's Links</h1>
     <ThemeToggle />
     <style jsx>{`
       .navbar {

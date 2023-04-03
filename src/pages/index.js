@@ -4,19 +4,19 @@ export default function Home() {
   return (
     <div>
       <LinkBlock
-        title="GitHub"
-        description="Check out my GitHub profile!"
-        url="https://github.com/myusername"
+        title="FurAffinity"
+        description="View my commissioned art!"
+        url="https://www.furaffinity.net/user/sablewind"
       />
       <LinkBlock
-        title="LinkedIn"
-        description="Connect with me on LinkedIn"
-        url="https://linkedin.com/in/myusername"
+        title="Discord Server"
+        description="Join my Discord server!"
+        url="https://discord.com/"
       />
       <LinkBlock
-        title="Twitter"
-        description="Follow me on Twitter"
-        url="https://twitter.com/myusername"
+        title="Telegram Stickers"
+        description="Add my Telegram stickers!"
+        url="https://t.me/addstickers/ZenithStardragon"
       />
     </div>
   );
