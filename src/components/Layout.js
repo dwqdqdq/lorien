@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       <Navbar />
       {children}
       <SocialLinks />
-      <footer>Made with ♡ by Zenith Stardragon</footer>
+      <footer>Made with ♡ by Zeni</footer>
       <style jsx>{`
         .layout {
           display: flex;

@@ -16,7 +16,7 @@ const SocialLinks = () => {
         <i className="fab fa-discord"></i>
       </a>
       <a
-        href="https://github.com/zenith-stardragon"
+        href="https://github.com/starfolf"
         target="_blank"
         rel="noopener noreferrer"
         className={`icon ${theme}`}
@@ -24,7 +24,7 @@ const SocialLinks = () => {
         <i className="fab fa-github"></i>
       </a>
       <a
-        href="https://t.me/zenithstardragon"
+        href="https://t.me/starfolf"
         target="_blank"
         rel="noopener noreferrer"
         className={`icon ${theme}`}
@@ -32,7 +32,7 @@ const SocialLinks = () => {
         <i className="fab fa-telegram"></i>
       </a>
       <a
-        href="https://steamcommunity.com/id/zenithstarborn"
+        href="https://steamcommunity.com/id/starfolf"
         target="_blank"
         rel="noopener noreferrer"
         className={`icon ${theme}`}
