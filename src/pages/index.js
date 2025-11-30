@@ -11,7 +11,7 @@ export default function Home() {
       <LinkBlock
         title="SmugMug"
         description="Check out my photography!"
-        url="https://zenith.smugmug.com/"
+        url="https://zeni.smugmug.com/"
       />
       <LinkBlock
         title="Telegram Stickers"
